@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> All Articale   </h1>
+    
+
+    <div style="background-color: aqua;width: 900px ; color: #000">
+    
+    <% for( let artt of ALLartical ) { %>
+     <h1 style="background-color: orange;">
+         <%= artt.title  %> </h1>
+         <br>
+         <h5> <%= artt.body  %></h5>
+         <hr>
+    <% } %>
+    </div>
+</body>
+</html>
